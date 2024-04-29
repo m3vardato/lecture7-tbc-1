@@ -42,7 +42,7 @@ body {
 }
 
 .stan {
-	animation: stanmoves 0.5s infinite;
+	animation: stanmoves 2s infinite;
 	position: relative;
 	width: 350px;
 	height: 200px;
