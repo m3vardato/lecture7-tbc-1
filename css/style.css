@@ -1,0 +1,104 @@
+.container {
+	width: 1165px;
+	margin: 0 auto;
+
+}
+
+
+
+
+body {
+	background-size: cover ;
+	background-repeat: no-repeat;
+	background-color: lightgray;
+	background-image: url(https://i.pinimg.com/736x/68/8e/44/688e447b12909607c988197eb8e2e819.jpg);
+}
+
+.eric {
+	position: relative;
+	width: 300px;
+	height: 175px;
+	top:486.5px;
+	animation: mymove 0.5s infinite;
+}
+
+
+.kyle {
+	animation: kylemoves 0.0001s infinite;
+	position: relative;
+	width: 150px;
+	height: 200px;
+	top:480px;
+	left: 40px;
+}
+
+.kenny {
+	animation: kennymoves 0.5s infinite;
+	position: relative;
+	width: 350px;
+	height: 220px;
+	top:480px;
+	left: 50px;
+}
+
+.stan {
+	animation: stanmoves 0.5s infinite;
+	position: relative;
+	width: 350px;
+	height: 200px;
+	top:480px;
+
+}
+
+
+@keyframes mymove {
+  0% {top: 418px;}
+  50% {top: 488px;}
+  100%{top: 418px}
+}
+
+@keyframes kylemoves {
+	0% {rotate: 0deg}
+	100%{rotate: 360deg}
+}
+
+@keyframes kennymoves {
+  0% {top: 418px;}
+  50% {top: 488px;}
+  100%{top: 418px}
+}
+
+@keyframes stanmoves {
+  0% {top: 418px;}
+  25%{rotate: 180deg}
+  50% {top: 100px;}
+  75% {rotate: 360deg}
+  100%{top: 418px}
+}
+
+.butter {
+	animation: fly 7s infinite;
+	bottom: 200px;
+	position: relative;
+	width: 100px;
+	height: 100px;
+}
+
+.token {
+	animation: fly 7s infinite;
+	bottom: 160px;
+	position: relative;
+	width: 100px;
+	height: 100px;
+}
+
+.fly {
+
+}
+
+@keyframes fly {
+	0%{left: -2000px }
+	50% {left: 1100px}
+	75%{rotate: 180deg}
+	100%{left: -1500px}
+}
