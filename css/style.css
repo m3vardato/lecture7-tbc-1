@@ -24,7 +24,7 @@ body {
 
 
 .kyle {
-	animation: kylemoves 0.0001s infinite;
+	animation: kylemoves 0.5s infinite;
 	position: relative;
 	width: 150px;
 	height: 200px;
